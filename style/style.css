@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #FFF;
+  background: rgba(255, 255, 255, 0.527);
   color: #555;}
 
 p
@@ -18,7 +18,7 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ color: #E7746F;
+{ color: rgb(255, 143, 14);
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
 
@@ -93,8 +93,10 @@ ol li
 
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
-  margin-right: auto;}
-
+  margin-right: auto;
+  
+}
+  
 #header
 { background: #1d1d1d url(pattern.png) repeat;
   border-bottom: 2px solid #E7746F;
@@ -102,10 +104,15 @@ ol li
   
 #banner
 { background: transparent url(banner.jpg) no-repeat;
-  width: 870px;
-  height: 180px;
-  margin-bottom: 20px;
-  border: 5px solid #E7746F;}
+  position: relative;
+  width: 99%;
+  height: 15rem;
+  margin-top: 1rem;
+  margin-left: 50%;
+  margin-right: 10%;
+  margin-bottom: -10%;
+  -webkit-transform: translateX(-50%) translateY(-50%);  
+  border: 2px solid #E7746F;}
 
 #logo
 { width: 880px;
@@ -143,10 +150,12 @@ ol li
 
 #menubar
 { width: 880px;
-  height: 46px;} 
+  height: 46px;
+  
+} 
 
 ul#menu
-{ float: right;
+{ float: left;
   margin: 0;}
 
 ul#menu li
@@ -173,15 +182,15 @@ ul#menu li.selected a
 
 ul#menu li.selected
 { margin: 1px 2px 0 0;
-  background: #E7746F;}
+  background: rgb(111, 207, 231);}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ background: #E7746F;
+{ background: rgba(255, 94, 0, 0.849);
   color: #FFF;}
 
 ul#menu li a:hover
 { color: #FFF;
-  background: #E7746F;}
+  background: rgba(255, 146, 83, 0.849);}
 
 #site_content
 { width: 880px;
