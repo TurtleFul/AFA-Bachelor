@@ -15,7 +15,9 @@ body
  
 }
   
-
+b.rounded 
+{border: 2px solid rgb(255, 143, 14);
+  border-radius: 5px;}
 p
 { padding: 0 0 20px 0;
   line-height: 1.7em;}
@@ -346,3 +348,12 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+  textdiv p {
+    height: auto;
+    width: 80%;
+    background-color: rgba(0, 255, 255, 0.274);
+    border-style: ridge;
+    font-size: 16px;
+    padding: 1%;
+  }
